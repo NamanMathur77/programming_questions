@@ -1,3 +1,5 @@
+//write a program to display an array element with their address using array name as a pointer
+
 #include<stdio.h>
 main()
 {
