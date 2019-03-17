@@ -57,3 +57,5 @@ for example a code like this would take O(n) time and O(n) space
 8. int pairSum(int a, int b){
 9. 	return a+b;
 10. }
+
+` There are roughly O(n) calls to pairSum, however those calls do not exist simultaneously on the call stack, as you only need O(1) space.` 
