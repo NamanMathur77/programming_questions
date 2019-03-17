@@ -19,3 +19,9 @@ We could describe the data transfer "algorithm" runtime as :-
 
 * Airplane Transfer :- O(1) As the size of file increases, it won't take any longer to get the file to your friend. The time is constant.
 ![O(1) time complexity](https://mellowd.co.uk/ccie/wp-content/uploads/2015/10/1.png)
+
+# Space Complexity
+
+It cares about the amount of memory or space required by an algorithm.
+
+>If we need to create an array of size n, this will require O(n) space. If we need a two dimensional array of size n*n, this will require O(n^2) space.
