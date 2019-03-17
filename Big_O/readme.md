@@ -16,3 +16,6 @@ We could describe the data transfer "algorithm" runtime as :-
 
 * Electronic Transfer :- O(s) Where s is the size of the file. This means the time to transfer the file increases linearly with the size of the file.
 ![O(s) time complexity](https://mellowd.co.uk/ccie/wp-content/uploads/2015/10/foo1.png)
+
+* Airplane Transfer :- O(1) As the size of file increases, it won't take any longer to get the file to your friend. The time is constant.
+![O(1) time complexity](https://mellowd.co.uk/ccie/wp-content/uploads/2015/10/1.png)
