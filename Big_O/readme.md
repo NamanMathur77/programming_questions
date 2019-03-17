@@ -25,3 +25,14 @@ We could describe the data transfer "algorithm" runtime as :-
 It cares about the amount of memory or space required by an algorithm.
 
 >If we need to create an array of size n, this will require O(n) space. If we need a two dimensional array of size n*n, this will require O(n^2) space.
+
+for example a code like this would take O(n) time and O(n) space
+
+1. int sum(int n){
+2. if(n<=0){
+3. return 0;
+4. }
+5. return n + sum(n-1);
+6. }
+
+` Each call adds a level to the stack`
