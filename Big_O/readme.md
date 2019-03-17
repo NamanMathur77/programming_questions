@@ -9,3 +9,9 @@ First thought would be to email, FTP or other means of electronic transfer. That
 If it is a small file, you are certainly right. It would take 5-10 hours to get to an airport, hop on a flight, and then deliver it to your friend.
 
 But what if the file is 1TB large, it would take more than a day to transfer electronically. It would be much faster to fly it across the country. If file is that urgent, you might just want to do that.
+
+# Time Complexity
+
+We could describe the data transfer "algorithm" runtime as :-
+
+* Electronic Transfer :- O(s) Where s is the size of the file. This means the time to transfer the file increases linearly with the size of the file.
