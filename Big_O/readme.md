@@ -36,3 +36,24 @@ for example a code like this would take O(n) time and O(n) space
 6. }
 
 ` Each call adds a level to the stack`
+
+1. sum(4)
+2. 	->sum(3)
+3.		->sum(2)
+4.			->sum(1)
+5. 				->sum(0)
+
+` Each of these calls is added to the call stack and takes up actual memory`
+
+>Just because you have n calls total doesn't means it takes O(n) space. Consider the below function.
+
+1. int pairSumSequence(int n){
+2. int sum=0;
+3. for(int i=0;i<n;i++){
+4. 	sum+=pairSum(i,i++);
+5. }
+6. return sum;
+7. }
+8. int pairSum(int a, int b){
+9. 	return a+b;
+10. }
