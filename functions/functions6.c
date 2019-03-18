@@ -3,15 +3,14 @@
 #include<stdio.h>
 int main()
 {
-int sum(),*s;
+int *s, *sum();
 s=sum();
 printf("Sum=%d",*s);
 }
-int sum()
+int *sum()
 {
-int x,y,z,k;
-printf("\n Enter three values");
-scanf("%d %d %d ",&x,&y,&z);
-k=x+y+z;
+int x=10,y=10,z=10,*k;
+k=&x;
+*k=*k+y+z;
 return(k);
 }
