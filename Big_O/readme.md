@@ -87,3 +87,20 @@ That second N isn't exactly a constant. But it's not specially important.
 4. for(int b:Arr B){
 5. print(b);
 6. }
+
+` We do A chunk of work then B chunk of work. Therefore the total amount of work is O(A+B)`
+
+### Multiply the run time : O(A*B)
+
+1. for(int a:Arr A){
+2. for(int b:Arr B){
+3. print(a+";"+b);
+4. }
+5. }
+
+` We do B chunk for each element in A. Therefore, the total amount of work in O(A*B)`
+
+## Log N Runtimes
+
+` Consider the case of binary search, we are looking for an expression x in an N element sorted array. We first compare x to the midpoint of the array. If x = middle, then we return. If x<middle, then we search on the left side of the array. If x>middle, then we search on the right side of the array.`
+
