@@ -104,3 +104,11 @@ That second N isn't exactly a constant. But it's not specially important.
 
 ` Consider the case of binary search, we are looking for an expression x in an N element sorted array. We first compare x to the midpoint of the array. If x = middle, then we return. If x<middle, then we search on the left side of the array. If x>middle, then we search on the right side of the array.`
 
+* search 9 within {1,5,8,9,11,13,15,19,21}
+* compare 9 to 11 -> smaller
+* search 9 within {1,5,8,9,11}
+* compare 9 to 8 -> bigger
+* search 9 within {9,11}
+* compare 9 to 9
+* return
+
