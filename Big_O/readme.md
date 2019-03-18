@@ -10,7 +10,7 @@ If it is a small file, you are certainly right. It would take 5-10 hours to get 
 
 But what if the file is 1TB large, it would take more than a day to transfer electronically. It would be much faster to fly it across the country. If file is that urgent, you might just want to do that.
 
-# Time Complexity
+## Time Complexity
 
 We could describe the data transfer "algorithm" runtime as :-
 
@@ -20,7 +20,7 @@ We could describe the data transfer "algorithm" runtime as :-
 * Airplane Transfer :- O(1) As the size of file increases, it won't take any longer to get the file to your friend. The time is constant.
 ![O(1) time complexity](https://mellowd.co.uk/ccie/wp-content/uploads/2015/10/1.png)
 
-# Space Complexity
+## Space Complexity
 
 It cares about the amount of memory or space required by an algorithm.
 
@@ -59,3 +59,21 @@ for example a code like this would take O(n) time and O(n) space
 10. }
 
 ` There are roughly O(n) calls to pairSum, however those calls do not exist simultaneously on the call stack, as you only need O(1) space.` 
+
+## Drop the Constants
+
+It is very possible for O(n) code to run faster than O(1) code for specific inputs Big O just describes the rate of increase.
+
+For this reason, we drop the constants in runtime. An algorithm that might have described as O(2N) is actually O(N).
+
+## Drop the non dominant terms
+
+What do you do about the expression such as O(N^2 + N)?
+
+That second N isn't exactly a constant. But it's not specially important.
+
+>You should drop the non dominant terms
+* O(N^2 + N) becomes O(N^2)
+* O(N +logN) becomes O(N)
+* O(5*2^N + 100N^100) becomes O(2^N)
+
