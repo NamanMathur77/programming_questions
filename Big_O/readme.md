@@ -77,3 +77,13 @@ That second N isn't exactly a constant. But it's not specially important.
 * O(N +logN) becomes O(N)
 * O(5*2^N + 100N^100) becomes O(2^N)
 
+## Multi-Port Algorithms : Add v/s Multiply
+
+### Add the run times : O(A+B)
+
+1. for(int a:Arr A){
+2. print(a);
+3. }
+4. for(int b:Arr B){
+5. print(b);
+6. }
