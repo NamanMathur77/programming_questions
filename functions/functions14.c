@@ -12,9 +12,11 @@ return 0;
 }
 int trinum(int a){
 int tri=0;
-for(int i=a;i!=0;i--)
-{
-tri=tri+i;
+if(a==0){
+return tri;
+}
+else{
+tri=tri+a+trinum(a-1);
 }
 return tri;
 }
