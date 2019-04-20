@@ -9,3 +9,4 @@
 * `if i < j then swap arr[i] and arr[j] and then increment i and decrement j`
 * `Repeat steps 4 to 6 till i<=j i.e. i and j cross each other`
 * `Once i and j cross each other swap pivot element with arr[i]`
+![Quick Sort example](https://slideplayer.com/slide/3407777/12/images/6/Quick+sort+with+recur+step.jpg)
