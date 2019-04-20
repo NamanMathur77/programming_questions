@@ -1,4 +1,4 @@
-//write a program to know whether the entered character string is palindron=me or not.
+//write a program to know whether the entered character string is palindrome or not.
 
 #include<stdio.h>
 #include<string.h>
