@@ -2,7 +2,7 @@
 using namespace std;
 struct Node{
 int data;
-Node *next;
+Node* next;
 };
 Node* head=NULL;
 void insert(int new_data){
@@ -12,6 +12,8 @@ new_node -> next=head;     //new_node.next=head
 head=new_node;
 }
 void display(){
+
+
 Node* ptr;
 ptr=head;
 while(ptr!=NULL){
